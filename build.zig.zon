@@ -1,0 +1,17 @@
+.{
+    .name = "uWebSockets",
+    .version = "20.62.0",
+    .dependencies = .{
+        .upstream = .{
+            .url = "https://github.com/uNetworking/uWebSockets/archive/refs/tags/v20.62.0.tar.gz",
+            .hash = "12208f52e2ad090880043559b45a86e862b30fdab9b5a78085cf7b8ad9deac5f504b",
+        },
+        .usockets = .{
+            .url = "https://github.com/fightingdreamer/uSockets.zig/archive/refs/tags/v0.8.8.tar.gz",
+            .hash = "1220ae906c67c78a6c871ead31bdcaf93d3001550ee0f116aa3e47e6ad4ea87df2e3",
+        },
+    },
+    .paths = .{
+        "",
+    },
+}
